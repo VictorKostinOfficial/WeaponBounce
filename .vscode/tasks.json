@@ -1,0 +1,1409 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "WeaponBounce Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win32",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Win64",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce Linux Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"Linux",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Shipping",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounce LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounce LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounce",
+				"LinuxAArch64",
+				"Test",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounceEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounceEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounceEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Win64",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounceEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"Debug",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounceEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"DebugGame",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"WeaponBounceEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		},
+		{
+			"label": "WeaponBounceEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"WeaponBounceEditor",
+				"Linux",
+				"Development",
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+			}
+		}
+	]
+}

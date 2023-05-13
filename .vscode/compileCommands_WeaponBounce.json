@@ -1,0 +1,47 @@
+[
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\OwnPhysicalComponent.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\OwnPhysicalComponent.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\WeaponBounce.Build.cs",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\WeaponBounce.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\WeaponBounce.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\WeaponBounceCharacter.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\WeaponBounceCharacter.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\WeaponBounceGameMode.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Projects\\\\UnrealProjects\\\\WeaponBounce\\\\WeaponBounce\\\\Source\\\\WeaponBounce\\\\WeaponBounceGameMode.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe @\"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\.vscode\\compileCommands_WeaponBounce\\WeaponBounce.202.rsp\"",
+		"directory": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Source"
+	}
+]

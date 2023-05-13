@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "WeaponBounce (Debug)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounce Win64 Debug Build",
+			"program": "C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WeaponBounce (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounce Win64 DebugGame Build",
+			"program": "C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WeaponBounce (Development)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounce Win64 Development Build",
+			"program": "C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WeaponBounce (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounce Win64 Shipping Build",
+			"program": "C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WeaponBounce (Test)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounce Win64 Test Build",
+			"program": "C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WeaponBounceEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounceEditor Win64 Debug Build",
+			"program": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject"
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WeaponBounceEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounceEditor Win64 DebugGame Build",
+			"program": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject"
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WeaponBounceEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "WeaponBounceEditor Win64 Development Build",
+			"program": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject"
+			],
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Progs\\Unreal Engine\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Projects\\UnrealProjects\\WeaponBounce\\WeaponBounce\\WeaponBounce.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Progs\\Unreal Engine\\UE_4.27"
+		}
+	]
+}
