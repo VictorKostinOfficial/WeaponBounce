@@ -127,9 +127,12 @@ else
 
 Вызваны в `Hit`
 ```
-	UPROPERTY(EditDefaultsOnly, Category = "Effects")
-	UParticleSystem* ImpactVFX;
-
-	UPROPERTY(EditDefaultsOnly, Category = "Effects")
-	class USoundCue* ImpactSound;
+	if(ImpactVFX)
+	{
+		UGameplayStatics::SpawnEmitterAtLocation(this, ImpactVFX, HitLocation);
+	}
+	if(ImpactSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, HitLocation);
+	}
 ```
